@@ -19,11 +19,11 @@
                  <a class="nav-link {{ ( $title === 'Contacts') ? 'active' : '' }}" href=" {{ route('contacts.create')}}">Contact Us</a>
             </li>
         </ul>
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ms-auto">
             <li class="nav-item">
                 <a class="nav-link" href="{{route ('login')}}">Login</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-itemms-auto">
             <a class="nav-link" href="{{route ('register')}}">Register</a>
             </li>
       </ul>
